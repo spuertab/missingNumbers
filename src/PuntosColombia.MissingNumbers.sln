@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuntosColombia.MissingNumbers", "PuntosColombia.MissingNumbers\PuntosColombia.MissingNumbers.csproj", "{044FD05A-D0CE-4DCA-9E39-9A9D5F6B2A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuntosColombia.MissingNumbers.Test", "PuntosColombia.MissingNumbers.Test\PuntosColombia.MissingNumbers.Test.csproj", "{2FB1BCAD-BDB3-4214-B1A8-10F8EFAD8E50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{044FD05A-D0CE-4DCA-9E39-9A9D5F6B2A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044FD05A-D0CE-4DCA-9E39-9A9D5F6B2A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044FD05A-D0CE-4DCA-9E39-9A9D5F6B2A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044FD05A-D0CE-4DCA-9E39-9A9D5F6B2A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB1BCAD-BDB3-4214-B1A8-10F8EFAD8E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB1BCAD-BDB3-4214-B1A8-10F8EFAD8E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB1BCAD-BDB3-4214-B1A8-10F8EFAD8E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB1BCAD-BDB3-4214-B1A8-10F8EFAD8E50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC9F5D97-E0AC-48C4-8934-7B8BB4108A68}
+	EndGlobalSection
+EndGlobal
