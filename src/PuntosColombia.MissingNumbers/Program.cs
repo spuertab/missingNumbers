@@ -1,9 +1,10 @@
 ﻿namespace PuntosColombia.MissingNumbers
 {
+    using PuntosColombia.MissingNumbers.Application.Services;
     using System;
     using System.Linq;
 
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -12,16 +13,15 @@
             // RESULTADO 204 205 206
 
             Console.WriteLine("Enter numbers list one");
-            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+            string arr = Console.ReadLine();
 
             Console.WriteLine("Enter numbers list two");
-            int[] brr = Array.ConvertAll(Console.ReadLine().Split(' '), brrTemp => Convert.ToInt32(brrTemp));
+            string brr = Console.ReadLine();
 
             Console.WriteLine("Missing numbers");
-            MissingNumbers missingNumbers = new MissingNumbers(arr, brr);
-            int[] result = missingNumbers.GetMissingNumbers();
+            NumberService numberService = new NumberService();
 
-            Console.WriteLine(result.Count() > 0 ? string.Join(" ", result) : "none");
+            Console.WriteLine(numberService.MissingNumbers(arr, brr));
             Console.ReadLine();
         }
     }
