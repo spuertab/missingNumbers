@@ -1,11 +1,7 @@
 ﻿
 namespace PuntosColombia.MissingNumbers.Application.Services
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-
-    public interface INumberService
+    public interface IMissingNumberService
     {
         string MissingNumbers(string astr, string bstr);
     }
